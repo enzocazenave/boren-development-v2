@@ -1,0 +1,34 @@
+.Info {
+    width: 100%;
+    height: 667px;
+    background: url('../../assets/images/home.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Info-container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Info-container-section {
+    text-align: center;
+}
+
+.Info-container-section-title {
+    color: var(--white);
+    font-size: 40px;
+}
+
+.Info-container-section-text {
+    color: var(--white);
+    margin: auto;
+    font-size: 20px;
+    max-width: 70%;
+}

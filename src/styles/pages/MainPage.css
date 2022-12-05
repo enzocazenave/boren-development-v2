@@ -1,0 +1,59 @@
+.MainPage-home {
+    width: 100%;
+    height: 100vh;
+    background: url("../../assets/images/home.jpg");
+    background-size: cover;
+    display: flex;
+}
+
+.MainPage-home-left {
+    width: 46.875%;
+    background-color: rgba(15, 15, 15, 0.8);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainPage-home-left-image {
+    animation: moveLogo 4s ease-in alternate infinite;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.MainPage-home-right {
+    height: 100vh;
+    flex: 1;
+    background-color: rgba(0,0,0, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.MainPage-home-right-social {
+    padding: 30px 70px;
+    text-align: right;
+}
+
+@keyframes moveLogo {
+    0% {
+        transform: skewX(0);
+    }
+    50% {
+        transform: skewX(20deg);
+    }
+    100% {
+        transform: skewX(-20deg);
+    }
+}
+
+.scrollbar-line {
+    position: fixed;
+    z-index: 1000;
+    top: 0%;
+    height: 5px;
+    background-color: rgb(122, 183, 236);;
+}

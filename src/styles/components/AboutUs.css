@@ -1,0 +1,36 @@
+.AboutUs-container {
+    max-width: 60%;
+    padding-left: 60px;
+}
+
+.AboutUs-container-title {
+    color: var(--white);
+    font-size: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+}
+
+.AboutUs-container-text {
+    color: var(--white);
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.AboutUs-container-button {
+    margin-top: 45px;
+    padding: 10px 22px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    background-color: var(--white);
+    color: var(--black);
+    cursor: pointer;
+    transition: opacity .3s;
+    font-weight: 500;
+}
+
+.AboutUs-container-button:hover {
+    opacity: .8;
+}

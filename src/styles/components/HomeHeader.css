@@ -1,0 +1,20 @@
+.HomeHeader-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+}
+
+.HomeHeader-navbar-link {
+    font-size: 1.8rem;
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+    padding-inline: 10px;
+    border-radius: 20px;
+    transition: background .4s;
+}
+
+.HomeHeader-navbar-link:hover {
+    background-color: var(--black);
+}

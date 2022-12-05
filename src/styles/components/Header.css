@@ -1,0 +1,33 @@
+.Header {
+    display: flex;
+    background-color: rgb(244, 244, 244);
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.Header-image {
+    width: 220px;
+}
+
+.Header-nav {
+    margin-right: 20px;
+}
+
+.Header-nav-link {
+    margin-inline: 20px;
+    color: var(--black);
+    text-decoration: none;
+    font-size: 20px;
+    padding-inline: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.Header-nav-link:hover {
+    background-color: var(--black);
+    color: var(--white);
+}

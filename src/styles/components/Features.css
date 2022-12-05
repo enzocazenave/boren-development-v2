@@ -1,0 +1,40 @@
+.Features-container {
+    width: 100%;
+    height: 650px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+.Features-container-title {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.Features-container-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.FeatureColumn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FeatureColumn-container-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.FeatureColumn-container-text {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    max-width: 60%;
+}   
