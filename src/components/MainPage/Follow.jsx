@@ -7,10 +7,10 @@ export const Follow = () => {
             <div className="Follow-container-blur">
                 <h1 className="Follow-container-title">Seguinos en redes</h1>
                 <div className="Follow-container-circles">
-                    <a href="#" className="Follow-container-circle">
+                    <a target="__blank" href="https://www.instagram.com/borendev/" className="Follow-container-circle">
                         <Instagram className="Follow-container-circle-icon" width={ 40 } height={ 40 } />
                     </a>
-                    <a href="#" className="Follow-container-circle">
+                    <a className="Follow-container-circle">
                         <Linkedin className="Follow-container-circle-icon" width={ 40 } height={ 40 } />
                     </a>
                 </div>

@@ -100,6 +100,7 @@
     .Services-container {
         height: auto;
         gap: 2em;
+        padding: 50px;
     }
     .Services-container-title {
         font-size: 30px;
