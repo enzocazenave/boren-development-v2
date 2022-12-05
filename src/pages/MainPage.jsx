@@ -19,35 +19,31 @@ export const MainPage = () => {
     return (
         <>
             {
-                (!loading) 
-                ?
-                <>
-                    <div id="scrollbar-line" className="scrollbar-line"></div>
-
-                    <div className="MainPage-home" id="home">
-                        <div className="MainPage-home-left">
-                            <img className="MainPage-home-left-image" src={ RectangleLogo } />
-                        </div>
-                        <div className="MainPage-home-right">
-                            <HomeHeader />
-                            <AboutUs />
-
-                            <a target="__blank" href="https://www.instagram.com/borendev/" className="MainPage-home-right-social">
-                                <Instagram width={ 48 } fill={ '#F5F5F5' } /> 
-                            </a>
-                        </div>
-                    </div>
-
-                    <Features />  
-                    <Info />
-                    <Services /> 
-                    <Follow />
-                    <Contact />
-                    <Clients />   
-                    <Footer />
-                </>
-                : <LoadingScreenPage />
+                (loading) && <LoadingScreenPage /> 
             }
+            <div id="scrollbar-line" className="scrollbar-line"></div>
+
+            <div className="MainPage-home" id="home">
+                <div className="MainPage-home-left">
+                    <img className="MainPage-home-left-image" src={ RectangleLogo } />
+                </div>
+                <div className="MainPage-home-right">
+                    <HomeHeader />
+                    <AboutUs />
+
+                    <a target="__blank" href="https://www.instagram.com/borendev/" className="MainPage-home-right-social">
+                        <Instagram width={ 48 } fill={ '#F5F5F5' } /> 
+                    </a>
+                </div>
+            </div>
+
+            <Features />  
+            <Info />
+            <Services /> 
+            <Follow />
+            <Contact />
+            <Clients />   
+            <Footer />
         </>
     )
 }
