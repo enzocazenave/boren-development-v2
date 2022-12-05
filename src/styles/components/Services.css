@@ -66,3 +66,56 @@
 .Services-container-cards-card-button:hover {
     opacity: .9;
 }
+
+@media (max-width: 1300px) {
+    .Services-container-cards {
+        gap: 2em;
+    }
+    .Services-container-cards-card-image {
+        width: 300px;
+        height: 168px;
+    }
+}
+
+@media (max-width: 1010px) {
+    .Services-container {
+        height: 700px;
+    }
+    .Services-container-cards-card-image {
+        width: 250px;
+        height: 140px;
+    }
+    .Services-container-cards-card-title {
+        font-size: 1em;
+    }
+    .Services-container-cards-card-text {
+        font-size: 0.8em;
+    }
+    .Services-container-cards-card-button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 830px) {
+    .Services-container {
+        height: auto;
+        gap: 2em;
+    }
+    .Services-container-title {
+        font-size: 30px;
+    }
+    .Services-container-cards {
+        grid-template-columns: none;
+    }
+    .Services-container-cards-card-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 400px) {
+    .Services-container {
+        padding: 20px;
+    }
+}

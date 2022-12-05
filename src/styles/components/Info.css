@@ -32,3 +32,16 @@
     font-size: 20px;
     max-width: 70%;
 }
+
+@media (max-width: 700px) {
+    .Info {
+        height: 400px;
+    }
+    .Info-container-section-title {
+        font-size: 25px;
+    }
+    .Info-container-section-text {
+        max-width: 90%;
+        font-size: 12px;
+    }
+}

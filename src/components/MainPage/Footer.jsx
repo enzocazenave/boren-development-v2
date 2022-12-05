@@ -13,15 +13,15 @@ export const Footer = () => {
                 <div className="Footer-separator"></div>
                 <div className="Footer-section-container">
                     <div className="Footer-section-info">
-                        <Telephone width={ 30 } />
+                        <Telephone className="Footer-section-info-image" width={ 30 } />
                         <p>+54 9 11 4528 0608</p>
                     </div>
                     <div className="Footer-section-info">
-                        <Envelope width={ 30 } />
+                        <Envelope className="Footer-section-info-image" width={ 30 } />
                         <p>boren@development.com</p>
                     </div>
                     <div className="Footer-section-info">
-                        <Location width={ 30 } />
+                        <Location className="Footer-section-info-image" width={ 30 } />
                         <p>Quilmes, Buenos Aires.</p>
                     </div>
                 </div>

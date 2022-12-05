@@ -27,6 +27,35 @@ footer {
 
 .Footer-section-info {
     display: flex;
+    align-items: center;
     gap: 2rem;
     margin-block: 20px;
+}
+
+@media (max-width: 1150px) {
+    .Footer-image {
+        width: 200px;
+        object-fit: contain;
+    }
+    .Footer-separator {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .Footer-section-info {
+        font-size: 10px;
+    }
+    .Footer-section-info-image {
+        width: 20px;
+    }
+}
+
+@media (max-width: 465px) {
+    .Footer-image {
+        display: none;
+    }
+    footer {
+        justify-content: center;
+    }
 }

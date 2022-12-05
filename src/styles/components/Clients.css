@@ -54,3 +54,38 @@
 .Clients-container-clients-client-text {
     color: var(--white)
 }
+
+@media (max-width: 700px) {
+    .Clients-container {
+        padding: 10px;
+    }
+    .Clients {
+        height: 400px;
+    }
+    .Clients-container-clients-client-image {
+        width: 120px;
+        height: 120px;
+    }
+    .Clients-container-clients-client-text {
+        font-size: 12px;
+    }
+    .Clients-container-title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    .Clients {
+        height: auto;
+    }
+    .Clients-container {
+        padding-block: 3em;
+    }
+    .Clients-container-title {
+        margin-bottom: 20px;
+    }
+    .Clients-container-clients {
+        flex-direction: column;
+        gap: 3em;
+    }
+}

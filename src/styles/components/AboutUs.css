@@ -34,3 +34,26 @@
 .AboutUs-container-button:hover {
     opacity: .8;
 }
+
+@media (max-width: 1450px) {
+    .AboutUs-container {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    .AboutUs-container {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 330px) {
+    .AboutUs-container {
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .AboutUs-container-title {
+        padding: 0;
+    }
+}
