@@ -14,11 +14,11 @@ export const Footer = () => {
                 <div className="Footer-section-container">
                     <div className="Footer-section-info">
                         <Telephone className="Footer-section-info-image" width={ 30 } />
-                        <p>+54 9 11 4528 0608</p>
+                        <a href="https://api.whatsapp.com/send?phone=5491145280608">+54 9 11 4528 0608</a>
                     </div>
                     <div className="Footer-section-info">
                         <Envelope className="Footer-section-info-image" width={ 30 } />
-                        <p>boren@development.com</p>
+                        <p>soporte@borendev.com</p>
                     </div>
                     <div className="Footer-section-info">
                         <Location className="Footer-section-info-image" width={ 30 } />
