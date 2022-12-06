@@ -15,7 +15,7 @@ export const NotFound = () => {
         <div className="NotFound-container">
             <h1 className="NotFound-container-title">404</h1>
             <h3 className="NotFound-container-description">Esta no es la página que estás buscando.</h3>
-            <img className="NotFound-container-logo" src={ RectangleLogo } />
+            <img alt="Logo de Boren Development" className="NotFound-container-logo" src={ RectangleLogo } />
             <h4 className="NotFound-container-redirecting">Serás redireccionado en 3 segundos.</h4>
         </div>
     )

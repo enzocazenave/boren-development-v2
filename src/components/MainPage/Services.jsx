@@ -10,7 +10,7 @@ export const Services = () => {
             <div className="Services-container-cards">
                 <div className="Services-container-cards-card">
                     <div>
-                        <img className="Services-container-cards-card-image"  src="https://cdn.discordapp.com/attachments/1008885821027405958/1040741422980157490/22817910_85682372133663.jpg"/>
+                        <img alt="Imagen de Landing Page" className="Services-container-cards-card-image"  src="https://cdn.discordapp.com/attachments/1008885821027405958/1040741422980157490/22817910_85682372133663.jpg"/>
 
                         <div className="Services-container-cards-card-description">
                             <h3 className="Services-container-cards-card-title">Landing Page</h3>
@@ -27,7 +27,7 @@ export const Services = () => {
                 </div>
                 <div className="Services-container-cards-card">
                     <div>
-                        <img className="Services-container-cards-card-image" src="https://ayudahosting.online/wp-content/uploads/2019/05/loginpage-tml.png" />
+                        <img alt="Imagen de Pagina Web" className="Services-container-cards-card-image" src="https://ayudahosting.online/wp-content/uploads/2019/05/loginpage-tml.png" />
                         <div className="Services-container-cards-card-description">
                             <h3 className="Services-container-cards-card-title">Página Web</h3>
                             <p className="Services-container-cards-card-text">
@@ -42,7 +42,7 @@ export const Services = () => {
                 </div>
                 <div className="Services-container-cards-card">
                     <div>
-                        <img className="Services-container-cards-card-image" src="https://kinsta.com/es/wp-content/uploads/sites/8/2018/03/panel-de-administración-de-wordress-3.png" />
+                        <img alt="Imagen de Panel administrativo" className="Services-container-cards-card-image" src="https://kinsta.com/es/wp-content/uploads/sites/8/2018/03/panel-de-administración-de-wordress-3.png" />
                         <div className="Services-container-cards-card-description">
                             <h3 className="Services-container-cards-card-title">Panel Administrativo</h3>
                             <p className="Services-container-cards-card-text">

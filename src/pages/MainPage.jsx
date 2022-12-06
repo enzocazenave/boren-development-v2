@@ -25,7 +25,7 @@ export const MainPage = () => {
 
             <div className="MainPage-home" id="home">
                 <div className="MainPage-home-left">
-                    <img className="MainPage-home-left-image" src={ RectangleLogo } />
+                    <img alt="Fondo de inicio" className="MainPage-home-left-image" src={ RectangleLogo } />
                 </div>
                 <div className="MainPage-home-right">
                     <HomeHeader />
