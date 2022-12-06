@@ -20,7 +20,9 @@ export const MainPage = () => {
             {
                 (loading) && <LoadingScreenPage /> 
             }
-            <Header />
+            {
+                (!loading) && <Header/>
+            }
             
             <div className="MainPage-home" id="home">
                 <div className="MainPage-home-left">
