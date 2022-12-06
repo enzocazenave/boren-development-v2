@@ -8,6 +8,7 @@ export const MorePage = () => {
     return (
         <>
             <Header />
+            <h1>Landing Page</h1>
         </>
     ) 
 }

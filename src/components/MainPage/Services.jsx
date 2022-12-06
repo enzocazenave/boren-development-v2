@@ -21,9 +21,9 @@ export const Services = () => {
                             </p>
                         </div>
                     </div>
-                    <Link to="/more/landing" className="Services-container-cards-card-button">
+                    <a href="#contact" className="Services-container-cards-card-button">
                         Más información
-                    </Link>
+                    </a>
                 </div>
                 <div className="Services-container-cards-card">
                     <div>
@@ -36,9 +36,9 @@ export const Services = () => {
                             </p>
                         </div>
                     </div>
-                    <Link to="/more/page" className="Services-container-cards-card-button">
+                    <a href="#contact" className="Services-container-cards-card-button">
                         Más información
-                    </Link>
+                    </a>
                 </div>
                 <div className="Services-container-cards-card">
                     <div>
@@ -53,9 +53,9 @@ export const Services = () => {
                             </p>
                         </div>
                     </div>
-                    <Link to="/more/panel" className="Services-container-cards-card-button">
+                    <a href="#contact" className="Services-container-cards-card-button">
                         Más información
-                    </Link>
+                    </a>
                 </div>
             </div>
         </div>
