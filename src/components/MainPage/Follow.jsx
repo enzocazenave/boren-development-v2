@@ -10,7 +10,7 @@ export const Follow = () => {
                     <a target="__blank" href="https://www.instagram.com/borendev/" className="Follow-container-circle">
                         <Instagram className="Follow-container-circle-icon" width={ 40 } height={ 40 } />
                     </a>
-                    <a className="Follow-container-circle">
+                    <a target="__blank" href="https://www.instagram.com/borendev/" className="Follow-container-circle">
                         <Linkedin className="Follow-container-circle-icon" width={ 40 } height={ 40 } />
                     </a>
                 </div>
