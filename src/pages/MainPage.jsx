@@ -1,5 +1,5 @@
 import '../styles/pages/MainPage.css';
-import RectangleLogo from '../assets/logos/rectangle-logo.png';
+import RectangleLogo from '../assets/logos/rectangle-logo.webp';
 import { HomeHeader, AboutUs, Instagram, Features, Clients, Services, Follow, Contact, Info, Footer } from '../components/';
 import '../helpers/Scrollbar.js';
 import { useEffect } from 'react';

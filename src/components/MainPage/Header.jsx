@@ -1,5 +1,5 @@
 import '../../styles/components/Header.css';
-import RectangleLogo from '../../assets/logos/rectangle-logo.png';
+import RectangleLogo from '../../assets/logos/rectangle-logo.webp';
 import { Link } from 'react-router-dom';
 
 export const Header = () => {

@@ -1,5 +1,5 @@
 import '../../styles/components/Footer.css';
-import RectangleLogo from '../../assets/logos/rectangle-logo.png';
+import RectangleLogo from '../../assets/logos/rectangle-logo.webp';
 import { Envelope, Telephone, Location } from '../Icons';
 
 export const Footer = () => {
