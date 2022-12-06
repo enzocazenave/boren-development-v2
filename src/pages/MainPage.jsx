@@ -1,7 +1,6 @@
 import '../styles/pages/MainPage.css';
 import RectangleLogo from '../assets/logos/rectangle-logo.webp';
-import { HomeHeader, AboutUs, Instagram, Features, Clients, Services, Follow, Contact, Info, Footer } from '../components/';
-import '../helpers/Scrollbar.js';
+import { HomeHeader, AboutUs, Instagram, Features, Clients, Services, Follow, Contact, Info, Footer, Header } from '../components/';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { LoadingScreenPage } from './';
@@ -21,8 +20,8 @@ export const MainPage = () => {
             {
                 (loading) && <LoadingScreenPage /> 
             }
-            <div id="scrollbar-line" className="scrollbar-line"></div>
-
+            <Header />
+            
             <div className="MainPage-home" id="home">
                 <div className="MainPage-home-left">
                     <img alt="Fondo de inicio" className="MainPage-home-left-image" src={ RectangleLogo } />

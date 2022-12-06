@@ -1,11 +1,17 @@
 .Header {
-    display: flex;
-    background-color: rgb(244, 244, 244);
-    align-items: center;
-    justify-content: space-between;
+    display: none;
+    background-color: rgb(230,230,230);
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 5000;
+}
+
+.Header-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .Header-image {
@@ -30,4 +36,49 @@
 .Header-nav-link:hover {
     background-color: var(--black);
     color: var(--white);
+}
+
+.header-active {
+    display: block;
+    animation: 0.5s fadeIn linear;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 900px) {
+    .Header-image {
+        display: none;
+    }
+    .Header-nav {
+        padding: 20px;
+    }
+    .Header-container {
+        justify-content: center;
+    }
+    .Header-nav {
+        margin: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .Header-nav-link {
+        font-size: 13px;
+        margin-inline: 5px;
+    }
+    .Header-nav {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Header-nav-link {
+        font-size: 10px;
+    }
 }
