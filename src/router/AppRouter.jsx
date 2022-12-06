@@ -6,7 +6,7 @@ export const AppRouter = () => {
         <Routes>
             <Route path="/" element={ <MainPage /> } />
             <Route path="/more/:service" element={ <MorePage /> } />
-            <Route path="*" element={ <NotFound /> } />
+            <Route path="/*" element={ <NotFound /> } />
         </Routes>
     )
 }

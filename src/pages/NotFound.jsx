@@ -1,5 +1,5 @@
 import '../styles/pages/NotFound.css';
-import RectangleLogo from '../assets/logos/rectangle-logo.png';
+import RectangleLogo from '../assets/logos/rectangle-logo.webp';
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
