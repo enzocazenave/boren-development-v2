@@ -18,7 +18,7 @@ export const Footer = () => {
                     </div>
                     <div className="Footer-section-info">
                         <Envelope className="Footer-section-info-image" width={ 30 } />
-                        <p>soporte@borendev.com</p>
+                        <p>encaze@hotmail.com</p>
                     </div>
                     <div className="Footer-section-info">
                         <Location className="Footer-section-info-image" width={ 30 } />
